@@ -21,6 +21,7 @@ Download nodejs: https://nodejs.org/
 ```
 tar xf node-v12.13.0-linux-x64.tar.xz
 export PATH=`pwd`/node-v12.13.0-linux-x64/bin:$PATH
+git clone https://github.com/optimix/webpack-babel-example.git
 cd webpack-babel-example
 npm install
 npm run server
